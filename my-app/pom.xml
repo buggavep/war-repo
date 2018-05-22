@@ -20,7 +20,7 @@
 
    <snapshotRepository>
     <id>snapshots</id>
-    <url>http://10.0.0.101:8081/repository/maven-snapshots/</url>
+    <url>http://10.0.0.101:8081/#browse/browse:maven-snapshots</url>
    </snapshotRepository>
   </distributionManagement>
   <dependencies>
