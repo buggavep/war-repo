@@ -17,6 +17,10 @@
     <id>releases</id>
     <url>http://localhost:8081/repository/maven-releases/</url>
    </repository>
+    <repository>
+      <id>maven repo</id>
+      <url>http://repo1.maven.org/maven2/</url>
+    </repository>
 
    <snapshotRepository>
     <id>snapshots</id>
@@ -158,10 +162,4 @@
       </plugin>
     </plugins>
   </build>
- <repositories>
-    <repository>
-      <id>maven repo</id>
-      <url>http://repo1.maven.org/maven2/</url>
-    </repository>
- </repositories>
 </project>
