@@ -17,10 +17,12 @@
     <id>releases</id>
     <url>http://localhost:8081/repository/maven-releases/</url>
    </repository>
+	<repositories>
     <repository>
       <id>maven repo</id>
       <url>http://repo1.maven.org/maven2/</url>
     </repository>
+	</repositories>
 
    <snapshotRepository>
     <id>snapshots</id>
